@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARK</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script.js" defer=""></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <header>
+        <h1 id="h123">영화 목록</h1>
+    </header>
+
+    <form class="search" onsubmit="handleSearch(event)">
+        <label>영화 검색 : </label>
+        <input type="text" id="search-input" placeholder="영화 제목을 검색해 보세요">
+        <button type="submit" id="search-btn">검색</button>
+    </form>
+
+    <div class="card-list">
+    </div>
+</body>
+
+</html>
